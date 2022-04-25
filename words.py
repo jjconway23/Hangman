@@ -5,5 +5,5 @@ def getWords():
     """
     response = requests.get("https://random-word-api.herokuapp.com/word?number=10&length=7")
     words = response.json()
-    return print(words)
+    return words
 
