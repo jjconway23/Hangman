@@ -1,7 +1,7 @@
 import requests
-def getWords():
+def get_words():
     """
-    Gets words from api, returns list of words printed to the console
+    Gets words from api, returns list of 5 words 
     """
     response = requests.get("https://random-word-api.herokuapp.com/word?number=5&length=7")
     words = response.json()
