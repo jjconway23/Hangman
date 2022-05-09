@@ -47,3 +47,26 @@ class Hangman:
             self.update_view(index, guess)
     
     
+    def check_winner(self):
+        """
+            check if user has guessed correct letters to complete word
+        """
+        display = "".join(self.display)
+        word = self.word
+        if display == word:
+            print("You win!")
+            return True
+    
+    def game():
+    """
+        Starts the game, this will run until word has been guessed
+    """
+    word = Hangman()
+    while True:
+        guess = input("Guess a letter:  ")
+        word.check_guess(guess)
+        word.show_word()
+        word.guesses += 1
+        if word.check_winner():
+            print(f"You guessed the word in {word.guesses} guesses")
+            break
