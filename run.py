@@ -57,7 +57,9 @@ class Hangman:
             print("You win!")
             return True
     
-    def game():
+    
+
+def game():
     """
         Starts the game, this will run until word has been guessed
     """
@@ -69,4 +71,15 @@ class Hangman:
         word.guesses += 1
         if word.check_winner():
             print(f"You guessed the word in {word.guesses} guesses")
+            play_again()
             break
+ 
+def play_again():
+    while True:
+        question = input("Do you want ot play again? Y/N")
+        if question.upper() == "N":
+            break
+        game()
+
+        
+game() 
