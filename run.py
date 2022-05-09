@@ -26,7 +26,7 @@ class Hangman:
         checks if the guess entered is equal to a letter in the random word
         """
         letter_locations = []
-        for index ,char in enumerate(list(self.word)):
+        for index , char in enumerate(list(self.word)):
             if char == guess:
                 letter_locations.append(index)
         return letter_locations
@@ -38,3 +38,12 @@ class Hangman:
         for num in index:
             self.display[num] = letter
 
+    def check_guess(self, guess):
+        """
+            Check if guess is correct
+        """
+        if guess in self.word:
+            index = self.get_letter_index(guess)
+            self.update_view(index, guess)
+    
+    
