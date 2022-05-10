@@ -21,7 +21,7 @@ class Hangman:
         display = "".join(self.display)
         print(f"Guess the word: {display}")
 
-    def get_letter_index(self,guess):
+    def get_letter_index(self ,guess):
         """
         checks if the guess entered is equal to a letter in the random word
         """
@@ -75,11 +75,14 @@ def game():
             break
  
 def play_again():
+    """
+        Function to see if user wants to play again
+    """
     while True:
         question = input("Do you want ot play again? Y/N")
         if question.upper() == "N":
             break
         game()
 
-        
+
 game() 
