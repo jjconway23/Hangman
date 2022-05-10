@@ -65,7 +65,7 @@ def game():
     """
     word = Hangman()
     while True:
-        guess = input("Guess a letter:  ")
+        guess = input("Guess a letter: \n ")
         word.check_guess(guess)
         word.show_word()
         word.guesses += 1
@@ -79,7 +79,7 @@ def play_again():
         Function to see if user wants to play again
     """
     while True:
-        question = input("Do you want ot play again? Y/N")
+        question = input("Do you want ot play again? Y/N \n")
         if question.upper() == "N":
             break
         game()
