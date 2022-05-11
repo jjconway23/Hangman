@@ -1,4 +1,6 @@
 import requests
+
+
 def get_words():
     """
     Gets words from api, returns list of 5 words 
