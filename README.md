@@ -30,3 +30,8 @@ Hangman is a short game that can be played by people of all ages. The goal is to
 The game been tested manually on PEP8 and no major problems found. Only whitespace errors coming from giving space to functions by putting a whitespace line space between them
 
 ![PEP8-test](./assets/readme_pictures/pep_8_validator.PNG)
+
+# Technologies
+* GitHub, used for project control.
+* Gitpod, used for making the project.
+* Heroku, used for Deployment.
