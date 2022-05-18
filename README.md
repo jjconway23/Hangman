@@ -25,3 +25,8 @@ Hangman is a short game that can be played by people of all ages. The goal is to
 * Once the user has guessed the correct word they will be told in how many guesses they won.
 * Once the user has guessed the correct word they will be asked if they want to play again.
 ![Winner-Screen](./assets/readme_pictures/winner.PNG)
+
+# Testing 
+The game been tested manually on PEP8 and no major problems found. Only whitespace errors coming from giving space to functions by putting a whitespace line space between them
+
+![PEP8-test](./assets/readme_pictures/pep_8_validator.PNG)
