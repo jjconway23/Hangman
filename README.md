@@ -39,5 +39,12 @@ The game been tested manually on PEP8 and no major problems found. Only whitespa
 # Bugs
 * After deployment the game had a couple errors relating to the imports.
 * This was fixed by adding the "requests" library to my requirements.txt file.
+
 # Remaining Bugs
 * No Bugs Remained.
+
+# Project Deployment
+* Sign up/ login to [heroku](https://id.heroku.com/login).
+* Set the buildbacks to Python and NodeJs.
+* Link Heroku app to repositry.
+* click Deploy.

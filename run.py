@@ -80,7 +80,7 @@ def play_again():
         Function to see if user wants to play again
     """
     while True:
-        question = input("Do you want ot play again? Y/N \n")
+        question = input("Do you want to play again? Y/N \n")
         if question.upper() == "N":
             break
         game()
