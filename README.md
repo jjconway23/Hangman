@@ -20,5 +20,8 @@ Hangman is a short game that can be played by people of all ages. The goal is to
 ![Guess-Letter](./assets/readme_pictures/guess_a_letter.PNG)
 
 * Players are tasked with guessing a letter, after correct guess the letter will appear.
-
 ![Game-board](./assets/readme_pictures/guesses.PNG)
+
+* Once the user has guessed the correct word they will be told in how many guesses they won.
+* Once the user has guessed the correct word they will be asked if they want to play again.
+![Winner-Screen](./assets/readme_pictures/winner.PNG)
