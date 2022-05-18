@@ -28,7 +28,6 @@ Hangman is a short game that can be played by people of all ages. The goal is to
 
 # Testing 
 The game been tested manually on PEP8 and no major problems found. Only whitespace errors coming from giving space to functions by putting a whitespace line space between them
-
 ![PEP8-test](./assets/readme_pictures/pep_8_validator.PNG)
 
 # Technologies
@@ -48,3 +47,8 @@ The game been tested manually on PEP8 and no major problems found. Only whitespa
 * Set the buildbacks to Python and NodeJs.
 * Link Heroku app to repositry.
 * click Deploy.
+
+# Credit 
+* Code institute for the deployment terminal.
+* Youtube tutorials for help with OOP.
+* [W3Schools](https://www.w3schools.com/) used to help me with importing modules.
