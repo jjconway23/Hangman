@@ -23,12 +23,12 @@ class Hangman:
         display = "".join(self.display)
         print(f"Guess the word: {display}")
 
-    def get_letter_index(self ,guess):
+    def get_letter_index(self, guess):
         """
         checks if the guess entered is equal to a letter in the random word
         """
         letter_locations = []
-        for index , char in enumerate(list(self.word)):
+        for index, char in enumerate(list(self.word)):
             if char == guess:
                 letter_locations.append(index)
         return letter_locations
@@ -58,7 +58,6 @@ class Hangman:
         if display == word:
             print("You win!")
             return True
-    
     
 
 def game():

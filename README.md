@@ -35,3 +35,9 @@ The game been tested manually on PEP8 and no major problems found. Only whitespa
 * GitHub, used for project control.
 * Gitpod, used for making the project.
 * Heroku, used for Deployment.
+
+# Bugs
+* After deployment the game had a couple errors relating to the imports.
+* This was fixed by adding the "requests" library to my requirements.txt file.
+# Remaining Bugs
+* No Bugs Remained.
